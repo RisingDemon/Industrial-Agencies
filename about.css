@@ -1,0 +1,213 @@
+.aboutimg {
+    display: flex;
+    width: 829px;
+    height: 456px;
+    flex-shrink: 0;
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    margin-top: 7rem;
+    width: 707px;
+    /* flex-shrink: 0; */
+    position: relative;
+    left: 25%;
+}
+
+h1 {
+
+    color: var(--Secondary-3, #0F4C79) !important;
+    text-align: center;
+    font-family: 'Philosopher';
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.para1 {
+    width: 935px;
+    height: 74px;
+    flex-shrink: 0;
+    color: #000;
+
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 122%;
+    /* 19.52px */
+}
+
+.para2 {
+    width: 935px;
+    height: 74px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 122%;
+    /* 19.52px */
+}
+
+.arrow {
+    width: 26px;
+    height: 0px;
+    flex-shrink: 0;
+    stroke-width: 3px;
+    stroke: #000;
+}
+
+span {
+    color: var(--Accent-2, #8E232C);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.para3 {
+    width: 753px;
+    height: 69px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 122%;
+    /* 19.52px */
+    margin-left: 4%;
+}
+
+h2 {
+    color: var(--Accent-2, #8E232C);
+
+    /* Alt Heading 2 */
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.heading1 {
+    width: 1000px;
+    margin-bottom: 4rem;
+
+    display: flex;
+    gap: 25px;
+    margin-left: -15%;
+}
+
+.parthead {
+    color: var(--Secondary-3, #0F4C79);
+}
+
+.box-1 {
+    width: 186px;
+    height: 185px;
+    border-radius: 60%;
+    flex-shrink: 0;
+    background-color: #ED1C29;
+    /* stroke-width: 1px; */
+    position: relative;
+    /* stroke: #000; */
+}
+
+.box-1 img {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.box-2 {
+    width: 186px;
+    height: 185px;
+    border: 1px solid black;
+    border-radius: 60%;
+    flex-shrink: 0;
+    background-color: #FDFDFD;
+    position: relative;
+    /* stroke: #000; */
+}
+
+.box-2 img {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.box-3 {
+    width: 186px;
+    height: 185px;
+    border: 1px solid black;
+    border-radius: 60%;
+    flex-shrink: 0;
+    background-color: #1E1E1E;
+    stroke-width: 1px;
+    stroke: #000;
+    ;
+    stroke-width: 1px;
+    position: relative;
+    /* stroke: #000; */
+}
+
+.box-3 img {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.box-4 {
+    width: 186px;
+    height: 185px;
+    border: 1px solid #000000;
+    border-radius: 60%;
+    flex-shrink: 0;
+    background-color: #BF0116;
+    position: relative;
+}
+
+.box-4 img {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.box-5 {
+    width: 186px;
+    height: 185px;
+    border: 1px solid #000;
+    border-radius: 60%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.box-5 img {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}

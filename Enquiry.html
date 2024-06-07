@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>industrialagencies</title>
+    <link href="Style.css" rel="stylesheet">
+    <link href="Enquiry.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header class="headback">
+        <div class="logoframe">
+            <a href="#" class="brandlogo">
+                <img src="assets\logo 1.png" height="86px" width="367px">
+            </a>
+        </div>
+        <div class="main">
+            <div class="maincolor">
+                <nav class="home-nav">
+                    <ul class="nav-con">
+                        <li class="align-nav"><a href="Home.html">Home</a></li>
+                        <li class="align-nav"><a href="About.html">About</a></li>
+                        <li class="align-nav"><a href="Products.html">Products</a></li>
+                        <li class="align-nav nav nav-pills"><a class="nav-link active" href=#>Enquiry</a></li>
+                        <li class="align-nav"><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="login-back">
+            <form class="form-features" name="f1" action="enquiry_submit.php">
+                <div class="shophead">
+                    <hr class="line1">
+                    <h1 class="linehead">
+                        Enquire Now
+                    </h1>
+                    <hr class="line1">
+                </div>
+               
+                <div class="form-align">
+                    Name<br>
+                    <input class="input-features" type="text" name="name" required placeholder="Enter Your Name">
+                    Email<br>
+                    <input class="input-features" type="email" name="email" required placeholder="agency.ui@gmail.com">
+                    Mobile<br>
+                    <input type="tel" class="input-features" name="mobile" required placeholder="Mobile Number">
+                    City<br>
+                    <select name="city" class="drop-features">
+                        <option>--Select City--</option>
+                        <option value="Kolhapur">Kolhapur</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Nashik">Nashik</option>
+                    </select>
+                    Product<br>
+                    <select class="drop-features" name="product" required>
+                        <option>--Select Product--</option>
+                        <option value="Loctite Adhesive/ Sealent">Loctite Adhesive/ Sealent</option>
+                        <option value="Kluber">Kluber</option>
+                        <option value="O.K.S">O.K.S</option>
+                        <option value="Nilkamal Crates & Bins">Nilkamal Crates & Bins</option>
+                        <option value="Pioneer Wheels & Clastors">Pioneer Wheels & Clastors</option>
+                        <option value="Aluminium Ladder">Aluminium Ladder</option>
+                        <option value="Machines & Machine Tool Accessories">Machines & Machine Tool Accessories</option>
+                        <option value="Fein Power Tools">Fein Power Tools</option>
+                        <option value="Material Handling Equipments">Material Handling Equipments</option>
+                        <option value="Safety Equipments">Safety Equipments</option>
+                        <option value="Ultrafilter, Elements & Dryers">Ultrafilter, Elements & Dryers</option>
+                        <option value="Tools & Tackles">Tools & Tackles</option>
+                    </select>
+                    Quantity
+                    <input class="drop-features range" name="quantity" type="number" min="1" max="" required>
+                    Message<br>
+                    <textarea rows="10" cols="8" class="input-features" name="message" placeholder="Enter Your Message.."></textarea>
+                    <br>
+                    <button type="submit" class="input-button btn ad btn-primary" name="submit" >
+                        Enquire Now
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" viewBox="0 0 35 25" fill="none">
+                            <path opacity="0.2" d="M29.1875 12.5L19.625 19.25V5.75L29.1875 12.5Z" fill="#0F4C79" />
+                            <path
+                                d="M29.9392 11.9694L20.3767 5.21936C20.2281 5.11435 20.0387 5.04282 19.8325 5.01383C19.6263 4.98485 19.4125 4.9997 19.2183 5.05651C19.024 5.11333 18.858 5.20955 18.7413 5.33299C18.6246 5.45644 18.5623 5.60156 18.5625 5.74998V11.75H5.8125C5.53071 11.75 5.26046 11.829 5.0612 11.9697C4.86194 12.1103 4.75 12.3011 4.75 12.5C4.75 12.6989 4.86194 12.8897 5.0612 13.0303C5.26046 13.171 5.53071 13.25 5.8125 13.25H18.5625V19.25C18.5623 19.3984 18.6246 19.5435 18.7413 19.667C18.858 19.7904 19.024 19.8866 19.2183 19.9434C19.4125 20.0003 19.6263 20.0151 19.8325 19.9861C20.0387 19.9571 20.2281 19.8856 20.3767 19.7806L29.9392 13.0306C30.038 12.961 30.1164 12.8782 30.1698 12.7872C30.2233 12.6961 30.2508 12.5985 30.2508 12.5C30.2508 12.4014 30.2233 12.3038 30.1698 12.2128C30.1164 12.1217 30.038 12.039 29.9392 11.9694ZM20.6875 17.4397V7.56029L27.6854 12.5L20.6875 17.4397Z"
+                                fill="#0F4C79" />
+                        </svg>
+                    </button>
+                </div>
+                <br>
+            </form>
+            <div class="enq-img">
+                <img src="adhesive.jpg">
+            </div>
+
+            
+            
+
+        </div>
+    </header>
+
+    <footer class="footernote">
+        <div class="footlogo">
+            <img src="assets\logo2.png" height="60px" width="270px">
+            <br>
+            <p class="footpara">
+                Industrial Agencies is a well established trading company specializing in sourcing and supplying a wide
+                range of high-quality products and equipment to businesses across various industries.
+                <br><br>
+                Working since 1974 and striving better with skilled technical staff.
+            </p>
+        </div>
+        <div class="foothead">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="Enquiry.html"> Enquire</a></li>
+                <li><a href="About.html"> About Us</a></li>
+            </ul>
+        </div>
+        <div class="foothead conlayout">
+            <h3>Contact Us</h3>
+            <ul>
+                <li>
+                    <svg class="conimg" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                        fill="none">
+                        <path
+                            d="M9.65417 15.7354C11.7542 19.8625 15.1375 23.2312 19.2646 25.3458L22.4729 22.1375C22.8667 21.7438 23.45 21.6125 23.9604 21.7875C25.5938 22.3271 27.3583 22.6188 29.1667 22.6188C29.9688 22.6188 30.625 23.275 30.625 24.0771V29.1667C30.625 29.9688 29.9688 30.625 29.1667 30.625C15.4729 30.625 4.375 19.5271 4.375 5.83333C4.375 5.03125 5.03125 4.375 5.83333 4.375H10.9375C11.7396 4.375 12.3958 5.03125 12.3958 5.83333C12.3958 7.65625 12.6875 9.40625 13.2271 11.0396C13.3875 11.55 13.2708 12.1188 12.8625 12.5271L9.65417 15.7354Z"
+                            fill="#6D1921" />
+                    </svg>
+                    +91-98220 90529
+                </li>
+                <li>
+                    <svg class="conimg" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                        fill="none">
+                        <path
+                            d="M9.65417 15.7354C11.7542 19.8625 15.1375 23.2312 19.2646 25.3458L22.4729 22.1375C22.8667 21.7438 23.45 21.6125 23.9604 21.7875C25.5938 22.3271 27.3583 22.6188 29.1667 22.6188C29.9688 22.6188 30.625 23.275 30.625 24.0771V29.1667C30.625 29.9688 29.9688 30.625 29.1667 30.625C15.4729 30.625 4.375 19.5271 4.375 5.83333C4.375 5.03125 5.03125 4.375 5.83333 4.375H10.9375C11.7396 4.375 12.3958 5.03125 12.3958 5.83333C12.3958 7.65625 12.6875 9.40625 13.2271 11.0396C13.3875 11.55 13.2708 12.1188 12.8625 12.5271L9.65417 15.7354Z"
+                            fill="#6D1921" />
+                    </svg>
+                    +91-231-2525402
+                </li>
+                <li>
+                    <svg class="conimg" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                        fill="none">
+                        <path
+                            d="M29.1667 5.83325H5.83332C4.22916 5.83325 2.91666 7.14575 2.91666 8.74992V26.2499C2.91666 27.8541 4.22916 29.1666 5.83332 29.1666H29.1667C30.7708 29.1666 32.0833 27.8541 32.0833 26.2499V8.74992C32.0833 7.14575 30.7708 5.83325 29.1667 5.83325ZM28.5833 12.0312L19.0458 17.9958C18.0979 18.5937 16.9021 18.5937 15.9542 17.9958L6.41666 12.0312C6.27043 11.9491 6.14237 11.8382 6.04024 11.7052C5.93812 11.5722 5.86404 11.4198 5.8225 11.2573C5.78095 11.0949 5.77281 10.9257 5.79855 10.7599C5.8243 10.5942 5.8834 10.4355 5.97228 10.2933C6.06115 10.1511 6.17796 10.0284 6.31563 9.93262C6.4533 9.83686 6.60897 9.77004 6.77321 9.73619C6.93746 9.70234 7.10686 9.70216 7.27117 9.73568C7.43549 9.76919 7.59129 9.8357 7.72916 9.93117L17.5 16.0416L27.2708 9.93117C27.4087 9.8357 27.5645 9.76919 27.7288 9.73568C27.8931 9.70216 28.0625 9.70234 28.2268 9.73619C28.391 9.77004 28.5467 9.83686 28.6843 9.93262C28.822 10.0284 28.9388 10.1511 29.0277 10.2933C29.1166 10.4355 29.1757 10.5942 29.2014 10.7599C29.2272 10.9257 29.219 11.0949 29.1775 11.2573C29.1359 11.4198 29.0619 11.5722 28.9597 11.7052C28.8576 11.8382 28.7296 11.9491 28.5833 12.0312Z"
+                            fill="#6D1921" />
+                    </svg>
+                    info@industrialagencies.com
+                </li>
+                <li><b>Office:</b> E,Opp.Shri Shahu Chhatrapati Mills Kolhapur - 416 008</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
